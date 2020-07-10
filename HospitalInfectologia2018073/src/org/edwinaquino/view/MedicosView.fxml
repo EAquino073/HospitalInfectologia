@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="734.0" style="-fx-background-color: #585858;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.edwinaquino.controller.MedicoController">
+   <children>
+      <Label layoutX="56.0" layoutY="90.0" text="Codigo" textFill="#ababab" />
+      <Label layoutX="50.0" layoutY="132.0" text="Nombres" textFill="#ababab" />
+      <Label layoutX="54.0" layoutY="171.0" text="Entrada" textFill="#ababab" />
+      <Label layoutX="62.0" layoutY="210.0" text="Sexo" textFill="#ababab" />
+      <ComboBox fx:id="cmbCodigoMedico" disable="true" editable="true" layoutX="141.0" layoutY="86.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField fx:id="txtNombres" disable="true" layoutX="141.0" layoutY="128.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField fx:id="txtSexo" disable="true" layoutX="141.0" layoutY="206.0" prefHeight="25.0" prefWidth="164.0" />
+      <Label layoutX="415.0" layoutY="90.0" text="Licencia " textFill="#ababab" />
+      <Label layoutX="413.0" layoutY="132.0" text="Apellidos" textFill="#ababab" />
+      <Label layoutX="421.0" layoutY="171.0" text="Salida" textFill="#ababab" />
+      <TextField fx:id="txtLicenciaMedica" disable="true" layoutX="506.0" layoutY="86.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField fx:id="txtApellidos" disable="true" layoutX="506.0" layoutY="128.0" prefHeight="25.0" prefWidth="164.0" />
+      <Label layoutX="281.0" layoutY="22.0" prefHeight="47.0" prefWidth="173.0" text="MEDICOS" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT Black" size="32.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="582.0" layoutY="34.0" onAction="#menuPrincipal" text="Menu Principal" />
+      <TableView fx:id="tblMedicos" layoutX="37.0" layoutY="258.0" onMouseClicked="#seleccionar" prefHeight="214.0" prefWidth="660.0">
+        <columns>
+          <TableColumn fx:id="colCodigoMedico" prefWidth="94.0" text="Codigo Medico" />
+            <TableColumn fx:id="colLicencia" prefWidth="94.0" text="Licencia" />
+            <TableColumn fx:id="colNombres" prefWidth="94.0" text="Nombres" />
+            <TableColumn fx:id="colApellidos" prefWidth="94.0" text="Apellidos" />
+            <TableColumn fx:id="colEntrada" prefWidth="94.0" text="Entrada" />
+            <TableColumn fx:id="colSalida" prefWidth="94.0" text="Salida" />
+            <TableColumn fx:id="colSexo" prefWidth="94.0" text="Sexo" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnAgregar" layoutX="62.0" layoutY="497.0" mnemonicParsing="false" onAction="#nuevo" prefHeight="25.0" prefWidth="129.0" text="Nuevo" />
+      <Button fx:id="btnModificar" layoutX="230.0" layoutY="497.0" mnemonicParsing="false" onAction="#editar" prefHeight="25.0" prefWidth="129.0" text="Modificar" />
+      <Button fx:id="btnEliminar" layoutX="389.0" layoutY="497.0" mnemonicParsing="false" onAction="#Eliminar" prefHeight="25.0" prefWidth="129.0" text="Eliminar" />
+      <Button fx:id="btnReporte" disable="true" layoutX="541.0" layoutY="497.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" text="Reporte" />
+      <TextField fx:id="txtEntrada" disable="true" layoutX="141.0" layoutY="167.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField fx:id="txtSalida" disable="true" layoutX="506.0" layoutY="167.0" prefHeight="25.0" prefWidth="164.0" />
+      <Hyperlink layoutX="26.0" layoutY="34.0" onAction="#ventanaTelefonoMedico" text="Contactar" />
+   </children>
+</AnchorPane>

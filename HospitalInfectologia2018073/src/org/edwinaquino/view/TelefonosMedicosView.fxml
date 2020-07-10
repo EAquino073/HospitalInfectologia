@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #585858;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.edwinaquino.controller.TelefonoMedicoController">
+   <children>
+      <Label layoutX="163.0" layoutY="23.0" text="Contacto Con Medico" textFill="WHITE">
+         <font>
+            <Font name="Georgia Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="91.0" text="Codigo" textFill="#ababab" />
+      <Label layoutX="305.0" layoutY="91.0" text="Codigo Medico" textFill="#ababab" />
+      <Label layoutX="43.0" layoutY="143.0" text="Tel Personal" textFill="#ababab" />
+      <Label layoutX="317.0" layoutY="143.0" text="Tel Trabajo" textFill="#ababab" />
+      <ComboBox layoutX="115.0" layoutY="87.0" prefWidth="150.0" />
+      <ComboBox layoutX="396.0" layoutY="87.0" prefWidth="150.0" />
+      <TextField layoutX="115.0" layoutY="139.0" prefHeight="25.0" prefWidth="150.0" />
+      <TextField layoutX="396.0" layoutY="139.0" prefHeight="25.0" prefWidth="150.0" />
+      <TableView layoutX="34.0" layoutY="186.0" prefHeight="200.0" prefWidth="426.0">
+        <columns>
+          <TableColumn prefWidth="115.0" text="Codigo" />
+          <TableColumn prefWidth="106.0" text="Codigo Medico" />
+            <TableColumn prefWidth="102.0" text="Tel Personal" />
+            <TableColumn prefWidth="102.0" text="Tel Trabajo" />
+        </columns>
+      </TableView>
+      <Button layoutX="475.0" layoutY="188.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="112.0" text="Agregar" />
+      <Button layoutX="475.0" layoutY="238.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="112.0" text="Modificar" />
+      <Button layoutX="475.0" layoutY="292.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="112.0" text="Eliminar" />
+      <Button layoutX="475.0" layoutY="346.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="112.0" text="Reporte" />
+      <Hyperlink layoutX="487.0" layoutY="14.0" onAction="#menuPrincipal" text="Menu Principal" />
+      <Hyperlink layoutX="502.0" layoutY="37.0" onAction="#ventanaMedicos" text="Medicos" />
+   </children>
+</AnchorPane>

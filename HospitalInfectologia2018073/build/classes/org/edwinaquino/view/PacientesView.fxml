@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="802.0" style="-fx-background-color: #585858;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.edwinaquino.controller.PacientesController">
+   <children>
+      <Label layoutX="333.0" layoutY="14.0" text="Pacientes" textFill="WHITE">
+         <font>
+            <Font name="Georgia Bold" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="82.0" text="Codigo" textFill="#ababab" />
+      <ComboBox layoutX="99.0" layoutY="78.0" prefWidth="150.0" />
+      <TextField layoutX="99.0" layoutY="133.0" />
+      <Label layoutX="303.0" layoutY="82.0" text="DPI" textFill="#ababab" />
+      <TextField layoutX="347.0" layoutY="78.0" />
+      <Label layoutX="288.0" layoutY="137.0" text="Apellidos" textFill="#ababab" />
+      <Label layoutX="38.0" layoutY="137.0" text="Nombres" textFill="#ababab" />
+      <Label layoutX="32.0" layoutY="187.0" text="Nacimiento" textFill="#ababab" />
+      <Label layoutX="288.0" layoutY="187.0" text="Direccion" textFill="#ababab" />
+      <Label layoutX="544.0" layoutY="137.0" text="Edad" textFill="#ababab" />
+      <Label layoutX="529.0" layoutY="82.0" text="Ocupacion" textFill="#ababab" />
+      <Label layoutX="545.0" layoutY="187.0" text="Sexo" textFill="#ababab" />
+      <TextField layoutX="347.0" layoutY="133.0" />
+      <TextField layoutX="347.0" layoutY="186.0" />
+      <TextField layoutX="610.0" layoutY="78.0" />
+      <TextField layoutX="610.0" layoutY="133.0" />
+      <TextField layoutX="610.0" layoutY="186.0" />
+      <TableView layoutX="38.0" layoutY="230.0" prefHeight="200.0" prefWidth="727.0">
+        <columns>
+          <TableColumn prefWidth="77.0" text="Codigo" />
+            <TableColumn prefWidth="83.0" text="Nombres" />
+            <TableColumn prefWidth="82.0" text="Apellidos" />
+            <TableColumn minWidth="0.0" prefWidth="81.0" text="Edad" />
+            <TableColumn prefWidth="82.0" text="Ocupacion" />
+            <TableColumn prefWidth="78.0" text="Direccion" />
+            <TableColumn prefWidth="75.0" text="DPI" />
+            <TableColumn prefWidth="81.0" text="Sexo" />
+            <TableColumn prefWidth="86.0" text="Nacimiento" />
+        </columns>
+      </TableView>
+      <Button layoutX="63.0" layoutY="453.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="121.0" text="Nuevo" />
+      <Button layoutX="243.0" layoutY="453.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="121.0" text="Modificar" />
+      <Button layoutX="436.0" layoutY="453.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="121.0" text="Eliminar" />
+      <Button layoutX="616.0" layoutY="453.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="121.0" text="Reporte" />
+      <TextField layoutX="100.0" layoutY="183.0" prefHeight="25.0" prefWidth="149.0" />
+      <Hyperlink layoutX="693.0" layoutY="22.0" onAction="#menuPrincipal" text="Menu Principal" />
+      <Hyperlink layoutX="34.0" layoutY="22.0" onAction="#ventanaContactoUrgencias" text="Urgencia" />
+   </children>
+</AnchorPane>

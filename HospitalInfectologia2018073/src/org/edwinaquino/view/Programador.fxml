@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0" prefWidth="691.0" style="-fx-background-color: #585858;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.edwinaquino.controller.ProgramadorController">
+   <children>
+      <ImageView fitHeight="220.0" fitWidth="265.0" layoutX="82.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="131.0" layoutY="25.0" text="PROGRAMADOR" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Georgia Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="400.0" layoutY="146.0" text="NOMBRES:" textFill="#ababab">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="400.0" layoutY="173.0" text="Edwin Gusatvo" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="399.0" layoutY="230.0" text="APELIIDOS:" textFill="#ababab">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="398.0" layoutY="257.0" text="Aquino Matute" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="340.0" text="gustavo073edwinågmail.com">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="400.0" text="2018-073">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="400.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="369.0" text="Centro Tecnico Kinal">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="39.0" layoutX="72.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logollama.png" />
+         </image>
+      </ImageView>
+      <Hyperlink layoutX="579.0" layoutY="14.0" onAction="#menuPrincipal" text="Menu Principal" textFill="WHITE" />
+      <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="77.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/1200px-Gmail_Icon.svg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="76.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/109616.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
